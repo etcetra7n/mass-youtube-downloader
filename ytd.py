@@ -1,4 +1,5 @@
 from pytube import YouTube
+from sys import stdout
 
 with open("links.txt", "r") as f:
     links = f.readlines()
@@ -8,3 +9,4 @@ with open("links.txt", "r") as f:
         yt = YouTube(link).streams.first().download("./downloads")
         count += 1
         print(f"Downloaded ({count}/{len(links)})")
+        stdout.flush()
