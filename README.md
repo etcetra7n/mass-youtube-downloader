@@ -1,7 +1,10 @@
 # Youtube Downloader
 
-This is a light-weight youtube downloader script. To run, just put all the youtube
-video links in the `links.txt` file and run the following command. 
+Light-weight youtube downloader script. **Works for both
+videos and shorts**
+
+To run, just put all the youtube video links in the `links.txt` file 
+and run the following command.
 
 ```shell
 $ python ytd.py
